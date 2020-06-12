@@ -6,6 +6,9 @@ Wicked PDF uses the shell utility [wkhtmltopdf](http://wkhtmltopdf.org) to serve
 
 _Wicked PDF has been verified to work on Ruby versions 2.2 through 2.6; Rails 4 through 6.1_
 
+* but you need version 1.1.0 if you have sprockets 3
+* and you probably don't want to jump to 1.2+ if you are still on rails 4
+
 ### Installation
 
 Add this to your Gemfile and run `bundle install`:
